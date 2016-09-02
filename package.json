@@ -1,0 +1,28 @@
+{
+  "name": "polymer-seed",
+  "version": "1.0.0",
+  "description": "rte-ui",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sravan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sravan-s/polymer-seed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sravan-s/polymer-seed/issues"
+  },
+  "homepage": "https://github.com/sravan-s/polymer-seed#readme",
+  "devDependencies": {
+    "browser-sync": "^2.7.7",
+    "gulp": "^3.9.1",
+    "proxy-middleware": "^0.15.0",
+    "url": "^0.11.0"
+  }
+}

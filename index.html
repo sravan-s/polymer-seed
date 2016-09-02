@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>rte-ui</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="bower_components/polymer/polymer.html">
+    <link rel="import" href="bower_components/iron-component-page/iron-component-page.html">
+  </head>
+  <body>
+    <script>
+      HTMLImports.whenReady(function () {
+        console.log('ready');
+        var link = document.createElement('link');
+        link.rel = 'import';
+        link.href = 'rte-ui/rte-ui.html';
+        document.head.appendChild(link);
+      });
+    </script>
+  </body>
+</html>

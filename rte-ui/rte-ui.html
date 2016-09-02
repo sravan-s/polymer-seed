@@ -1,0 +1,25 @@
+<dom-module id="rte-ui">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'rte-ui',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'rte-ui',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
